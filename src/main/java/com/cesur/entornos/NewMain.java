@@ -31,6 +31,7 @@ public class NewMain {
         yo.setNotaLM(new Calificación(4.0,7.0));
         
         System.out.println(yo);
+        System.out.println(yo.calcularEdad());
         System.out.println(yo.getNotaED().calcularMedia());
         System.out.println(yo.getNotaLM().calcularMedia());
         System.out.println(yo.numeroAprobados());
