@@ -22,7 +22,7 @@ public class NewMain {
     public static void main(String[] args) throws ParseException {
 
         Alumno yo = new Alumno();
-        yo.setFechaNacimiento(new SimpleDateFormat("dd/MM/yyyy").parse("04/08/1979") );
+        yo.setFechaNacimiento(new SimpleDateFormat("dd/MM/yyyy").parse("5/06/1981") );
         yo.setApellidos("Romero");
         yo.setNombre("Francisco");
         yo.setTelefono("665454989");

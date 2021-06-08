@@ -25,7 +25,7 @@ public class Calificación {
         return teórico;
     }
 
-    public void Double(Double teórico) {
+    public void setTeórico(Double teórico) {
         this.teórico = teórico;
     }
 

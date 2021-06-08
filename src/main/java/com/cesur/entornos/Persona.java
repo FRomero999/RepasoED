@@ -22,7 +22,8 @@ public class Persona {
     protected Date fechaNacimiento;
     protected String email;
 
-        public String getNombre() {
+
+    public String getNombre() {
         return nombre;
     }
 
@@ -75,7 +76,7 @@ public class Persona {
     public Integer calcularEdad(){
         Date hoy = new Date();
         long diffInMillies = Math.abs(hoy.getTime() - fechaNacimiento.getTime());
-        long diff = TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS)/365;
+        long diff = TimeUnit.HOURS.convert(diffInMillies, TimeUnit.MILLISECONDS)/(365*24+6);
         return Math.round(diff);
     }
     
